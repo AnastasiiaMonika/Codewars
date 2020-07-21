@@ -8,7 +8,8 @@ Note: The function accepts an integer and returns an integer
 number = 94116
 
 result = ""
-for i in str(number):
+for i in str(num):
     result += str((int(i))**2)
+result = int(result)
 
 print(result)
