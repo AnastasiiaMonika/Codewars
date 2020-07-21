@@ -1,4 +1,6 @@
-"""In this Kata, you will be given an array of integers whose elements have both a negative and a positive value, except for one integer that is either only negative or only positive. Your task will be to find that integer.
+"""In this Kata, you will be given an array of integers whose elements have both a 
+negative and a positive value, except for one integer that is either only negative 
+or only positive. Your task will be to find that integer.
 Examples:
 [1, -1, 2, -2, 3] => 3
 3 has no matching negative appearance
@@ -33,3 +35,5 @@ for elem in arr:
         lonely_elem = elem
         
 print(lonely_elem)
+
+#def solve(arr): return sum(set(arr))
